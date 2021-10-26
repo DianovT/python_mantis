@@ -7,12 +7,9 @@ def random_username(prefix, maxlen):
     return prefix + "".join ([random.choice(symbols) for i in range(random.randrange(maxlen))])
 
 def test_singup_new_account(app):
-    username = random_username('user_', 10)
+    username = random_username('testusers_', 10)
     email = username + "@localhost"
     password = "test"
     app.james.insure_user_exists(username, password)
     app.singup.new_user(username, email, password)
-    app.session.login(username, password)
-    assert app.is_logged_in(username)
-    app.session.logout()
-
+    assert app.soap.can_login(username, password)
