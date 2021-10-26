@@ -2,6 +2,8 @@ from selenium import webdriver
 from fixture.session import SessionHelper
 from fixture.project import ProjectHelper
 from fixture.james import jamesHelper
+from fixture.singup import SignupHelper
+from fixture.mail import MailHelper
 from generator.project import GeneratorProject
 from webdriver_manager.firefox import GeckoDriverManager
 
@@ -19,6 +21,8 @@ class Application:
         self.wd.implicitly_wait(5)
         self.session = SessionHelper(self)
         self.project = ProjectHelper(self)
+        self.singup = SignupHelper(self)
+        self.mail = MailHelper(self)
         self.james = jamesHelper(self)
         self.gen = GeneratorProject(self)
         self.config = config
