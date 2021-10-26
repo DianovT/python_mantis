@@ -1,12 +1,13 @@
 from selenium import webdriver
 from fixture.session import SessionHelper
 from fixture.project import ProjectHelper
+from fixture.james import jamesHelper
 from generator.project import GeneratorProject
 from webdriver_manager.firefox import GeckoDriverManager
 
 
 class Application:
-    def __init__(self, browser, base_url):
+    def __init__(self, browser, config):
         if browser == "firefox":
             self.wd = webdriver.Firefox(executable_path=GeckoDriverManager().install())
         elif browser == "chrome":
@@ -18,8 +19,10 @@ class Application:
         self.wd.implicitly_wait(5)
         self.session = SessionHelper(self)
         self.project = ProjectHelper(self)
+        self.james = jamesHelper(self)
         self.gen = GeneratorProject(self)
-        self.base_url = base_url
+        self.config = config
+        self.base_url = config['web']['baseUrl']
 
     def is_valid(self):
         try:

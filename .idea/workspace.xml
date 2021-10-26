@@ -7,13 +7,20 @@
     <list default="true" id="26776dd0-3ee8-48a7-956a-950540814560" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resurses/config_inc.php" beforeDir="false" afterPath="$PROJECT_DIR$/resurses/config_inc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target.json" beforeDir="false" afterPath="$PROJECT_DIR$/target.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,7 +46,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest in test_login.py">
+  <component name="RunManager" selected="Python tests.pytest in tets_singup_new_account.py">
     <configuration name="Test_add_project" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="python_mantis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -50,27 +57,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/Test_add_project.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_login" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="python_mantis" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,20 +113,36 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in tets_singup_new_account.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="python_mantis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/test/tets_singup_new_account.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Test_add_project" />
-      <item itemvalue="Python.test_login" />
       <item itemvalue="Python tests.pytest in Test_add_project.py" />
       <item itemvalue="Python tests.pytest in test" />
       <item itemvalue="Python tests.pytest in test_login.py" />
+      <item itemvalue="Python tests.pytest in tets_singup_new_account.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in tets_singup_new_account.py" />
         <item itemvalue="Python tests.pytest in test_login.py" />
         <item itemvalue="Python tests.pytest in Test_add_project.py" />
         <item itemvalue="Python tests.pytest in test" />
         <item itemvalue="Python.Test_add_project" />
-        <item itemvalue="Python.test_login" />
       </list>
     </recent_temporary>
   </component>
@@ -163,12 +165,20 @@
       <option name="project" value="LOCAL" />
       <updated>1635183799544</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="File Transfer Protocol (FTP)">
+      <created>1635260345639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635260345639</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Задание №25: Реализовать тесты для добавления и удаления проектов в Mantis" />
-    <option name="LAST_COMMIT_MESSAGE" value="Задание №25: Реализовать тесты для добавления и удаления проектов в Mantis" />
+    <MESSAGE value="File Transfer Protocol (FTP)" />
+    <option name="LAST_COMMIT_MESSAGE" value="File Transfer Protocol (FTP)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
